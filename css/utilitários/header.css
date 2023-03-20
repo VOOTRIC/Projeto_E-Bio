@@ -1,13 +1,40 @@
-.header {
-    display: flex;
-    height: 100px;
+.header-bg {
     background-color: var(--cor-5);
-    justify-content: space-between;
 }
 
-.header-list {
-    text-align: center;
+.header {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    gap: 80px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.header-menu a {
+    display: inline-block;
+    padding: 16px 0px;
+    position: relative;
+}
+
+.header-menu a::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: var(--cor-0);
+    margin-top: 4px;
+    position: absolute;
+}
+
+.header-menu a:hover::after {
+    width: 100%;
+    transition: 0.3s;
 }

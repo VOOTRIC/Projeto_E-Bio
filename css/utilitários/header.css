@@ -1,10 +1,13 @@
-
-.header{
-    height: 100px;
+.header {
     display: flex;
+    height: 100px;
     background-color: var(--cor-5);
+    justify-content: space-between;
+}
+
+.header-list {
     text-align: center;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     gap: 80px;
 }

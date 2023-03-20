@@ -1,53 +1,64 @@
-.rubik-300 {
+.rubik-2-300 {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     font-size: 2rem;
 }
 
-.rubik-400 {
+.rubik-3-400 {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 3rem;
 }
 
-.rubik-500 {
+.rubik-3-500 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.rubik-4-500 {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 4rem;
 }
+.rubik-3-600{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
 
-.poppins-400-a {
+.poppins-11-400 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.125rem;
 }
 
-.poppins-400-b {
+.poppins-12-400 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.25rem;
 }
 
-.poppins-500 {
+.poppins-4-500 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 4rem ;
 }
 
-.roboto-300 {
+.roboto-11-300 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1.125rem;
 }
 
-.roboto-400 {
+.roboto-15-400 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 35px;
 }
 
-.roboto-500 {
+.roboto-2-500 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 2rem;

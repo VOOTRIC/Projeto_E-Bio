@@ -1,7 +1,10 @@
 @import "../css/global.css";
 
+
 /* home */
 @import "home/introducao.css";
+@import "home/main.css";
+
 
 /* utilitários */
 @import "./utilitários/cores.css";

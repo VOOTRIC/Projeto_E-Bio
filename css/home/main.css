@@ -1,0 +1,20 @@
+.main {
+
+}
+.main-bg{
+
+}
+
+.main-header{
+
+}
+
+.main-content{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+
+.main-content li{
+    display: grid;
+}
+

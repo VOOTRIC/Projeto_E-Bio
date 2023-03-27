@@ -4,7 +4,6 @@
 
 .header {
     display: flex;
-    gap: 20px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -15,12 +14,12 @@
 .header-menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 45px;
+    gap: 60px;
 }
 
 .header-menu a {
     display: inline-block;
-    padding: 16px 0px;
+    align-self: center;
     position: relative;
 }
 

@@ -1,20 +1,69 @@
-.main {
+/* CABEÇALHOS DO MAIN */
 
-}
-.main-bg{
-
-}
-
-.main-header{
-
-}
-
-.main-content{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-right: 47px;
+    padding-bottom: 20px;
+    align-items: center;
 }
 
-.main-content li{
+.main-header h2 {
+    color: var(--cor-5);
+}
+
+.main-header a {
+    text-decoration: underline;
+}
+
+.main-content {
+    column-gap: 0px;
+    row-gap: 70px;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
 }
 
+.main-content li {}
+
+
+/*LISTA DE BIOGRAFIAS*/
+
+.thumb-container {
+    position: relative;
+    width: 300px;
+    height: 450px;
+}
+
+.thumb-imagem img {
+    display: block;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.thumb-titulo {
+    background-color: var(--cor-5);
+    display: grid;
+    place-content: center;
+    position: absolute;
+    height: 38px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: -38px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+}
+
+.thumb-titulo h4 {
+    letter-spacing: 1px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #fff;
+    text-align: center;
+    max-width: 25ch;
+}

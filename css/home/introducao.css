@@ -4,7 +4,6 @@
     padding-top: 45px;
     padding-bottom: 45px;
     box-sizing: border-box;
-
 }
 
 .introducao-bg{
@@ -13,4 +12,5 @@ background-color: rgba(34, 11, 0, 0.03);
 
 .introducao > h1{
 max-width: 15ch;
+text-align: center;
 }

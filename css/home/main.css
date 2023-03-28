@@ -1,5 +1,9 @@
 /* CABEÇALHOS DO MAIN */
 
+.main-home {
+    margin-bottom: 125px;
+}
+
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -30,8 +34,6 @@
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
 }
-
-.main-content li {}
 
 
 /*LISTA DE BIOGRAFIAS*/

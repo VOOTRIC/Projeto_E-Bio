@@ -4,7 +4,7 @@
 /* home */
 @import "home/introducao.css";
 @import "home/main.css";
-
+@import "home/sobremim.css";
 
 /* utilitários */
 @import "./utilitários/cores.css";

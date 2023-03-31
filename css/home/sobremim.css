@@ -1,6 +1,7 @@
 .sobremim-bg{
 background-color: var(--cor-4);
 padding-top: 20px;
+padding-bottom: 50px;
 }
 
 .sobremim{
@@ -45,7 +46,4 @@ padding-top: 20px;
     grid-area: 2/2;
     background-color: var(--cor-2);
     border-radius: 50%;
-}
-
-.sobremim-imgbg img{
 }

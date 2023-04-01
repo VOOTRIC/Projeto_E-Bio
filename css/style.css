@@ -12,3 +12,6 @@
 @import "./utilitários/tipografia.css";
 @import "utilitários/componentes.css";
 @import "utilitários/footer.css";
+
+/* Biografias */
+@import "../biografias/biografia.css";

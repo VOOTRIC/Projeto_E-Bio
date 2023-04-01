@@ -45,6 +45,11 @@
     height: 400px;
 }
 
+.thumb-imagem {
+    width: 280px;
+    height: 400px;
+}
+
 .thumb-imagem img {
     display: block;
     object-fit: cover;

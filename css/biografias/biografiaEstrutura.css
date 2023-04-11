@@ -2,6 +2,10 @@ body#biografias [class$="container"] {
     padding-top: 80px;
 }
 
+
+
+/* BLOCO-1 */
+
 .bloco-1{
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -9,12 +13,17 @@ body#biografias [class$="container"] {
 
 .bio-infos{
 margin-bottom: 20px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+row-gap: 10px;
 }
 
 .bio-img{
 width: 250px;
 height: 330px;
 justify-self: center;
+background-color: rgba(255, 217, 171, 0.5);;
 }
 
 .bio-img img{
@@ -30,10 +39,16 @@ flex-direction: column;
 row-gap: 10px;
 }
 
-.bio-nascimento{
-font-family: Arial, Helvetica, sans-serif;
-}
 
 .bio-resumo > h2{
 margin-bottom: 15px;
 }
+
+.bio-texto{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* BLOCO-2 */
+

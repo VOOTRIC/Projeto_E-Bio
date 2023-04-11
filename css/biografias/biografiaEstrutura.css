@@ -1,50 +1,64 @@
 body#biografias [class$="container"] {
     padding-top: 80px;
+    display: grid;
+    gap: 50px;
 }
 
 
 
 /* BLOCO-1 */
 
-.bloco-1{
+.bloco-1 {
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
 
-.bio-infos{
-margin-bottom: 20px;
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-row-gap: 10px;
+.bio-infos {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 10px;
 }
 
-.bio-img{
-width: 250px;
-height: 330px;
-justify-self: center;
-background-color: rgba(255, 217, 171, 0.5);;
+.bio-img {
+    width: 250px;
+    height: 330px;
+    justify-self: center;
+    background-color: rgba(255, 217, 171, 0.5);
+    ;
 }
 
-.bio-img img{
+.bio-img img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.bio-desc{
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-row-gap: 10px;
+.bio-desc {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 10px;
 }
 
 
-.bio-resumo > h2{
-margin-bottom: 15px;
+.bio-resumo>h2 {
+    margin-bottom: 15px;
 }
 
-.bio-texto{
+
+.bio-header {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.bloco-2 > h2{
+    padding-left: 80px;
+}
+
+.bio-texto {
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -52,3 +66,26 @@ margin-bottom: 15px;
 
 /* BLOCO-2 */
 
+.bloco-2{
+display: grid;
+}
+
+.bio-imgG {
+    justify-self: center;
+    display: grid;
+    place-content: center;
+    width: 960px;
+    height: 450px;
+    padding: 20px;
+}
+.img-exemplo{
+    background-color: rgba(255, 217, 171, 0.5);
+    width: 800px;
+    height: 400px;
+}
+
+/* BLOCO-3 */
+.bloco-3{
+    display: grid;
+    gap: 20px;
+}

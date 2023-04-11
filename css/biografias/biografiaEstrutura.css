@@ -88,4 +88,5 @@ display: grid;
 .bloco-3{
     display: grid;
     gap: 20px;
+    padding-bottom: 50px;
 }

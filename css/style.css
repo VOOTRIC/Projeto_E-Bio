@@ -13,5 +13,8 @@
 @import "utilitários/componentes.css";
 @import "utilitários/footer.css";
 
+/* Pesquisa */
+@import "pesquisa/pesquisar.css";
+
 /* Biografias */
-@import "../biografias/biografia.css";
+@import "biografias/biografiaEstrutura.css";

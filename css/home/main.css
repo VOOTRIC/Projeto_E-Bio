@@ -144,9 +144,6 @@
     .main-content{
         row-gap: 30px;
     }
-    .main-content:nth-child(even){
-        border-radius: 5px 0 0 5px;
-    }
 
     .thumb-titulo {
         display: none;

@@ -37,3 +37,10 @@
     width: 100%;
     transition: 0.3s;
 }
+
+
+@media (max-width: 850px){
+    .header{
+        justify-content: space-evenly;
+    }
+}

@@ -18,3 +18,40 @@ font-family: 'Rubik', sans-serif;
 font-weight: 500;
 font-size: 2.5rem;
 }
+
+
+@media (max-width: 850px){
+
+    .introducao > h1{
+        font-size: 2rem;
+    }
+
+    .introducao div > img{  
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .introducao > h1{
+        font-size: 1.75rem;
+    }
+
+    .introducao div > img{  
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 350px){
+
+    .introducao > h1{
+        font-size: 1.5rem;
+    }
+
+    .introducao div > img{  
+        width: 60px;
+        height: 60px;
+    }
+}

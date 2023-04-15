@@ -1,4 +1,4 @@
-body#biografias [class$="container"] {
+body#biografias > div.container{
     padding-top: 80px;
     display: grid;
     gap: 50px;

@@ -82,3 +82,26 @@
         padding: 2px 5px;
     }
 }
+
+@media (max-width: 750px) {
+    .sobremim h2 {
+        font-size: 1.75rem;
+    }
+
+    .sobremim p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .sobremim h2 {
+        font-size: 1.5rem;
+    }
+
+    body#home .botao {
+        font-size: 1rem;
+        font-weight: 300;
+        padding: 2px 5px;
+    }
+
+}

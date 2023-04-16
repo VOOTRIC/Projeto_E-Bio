@@ -108,11 +108,20 @@
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1000px) {
 
     .thumb-container {
         width: 240px;
         height: 350px;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .thumb-container {
+        width: 200px;
+        height: 310px;
     }
 
 }

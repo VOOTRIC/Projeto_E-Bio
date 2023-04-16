@@ -142,16 +142,14 @@
     }
 
 
-    .main-content {
+    .main-content {    
         display: flex;
-        flex-wrap: wrap ;
-        row-gap: 0px;
-        column-gap: 90px;
+        flex-wrap: wrap;
     }
 
     .itemList {
-        flex-basis: calc(50% - 10px);
-        margin: 5px;
+        flex-basis: calc(50% - 20px);
+        margin: 5px 10px;   
       }
 
     .thumb-container {

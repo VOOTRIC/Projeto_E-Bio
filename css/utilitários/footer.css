@@ -1,56 +1,148 @@
-.footer-bg{
-    background-color: var(--cor-6);
+.footer-bg {
+  background-color: var(--cor-6);
 }
 
-footer > div{
+.footer-email {
+  display: none;
+}
+
+footer>div {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 5px;  
+  padding-bottom: 5px;
 }
 
-.footer-redes{
-display: flex;
-justify-content: end;
-gap: 15px;
+.footer-redes {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
 }
 
-.footer-info{
+.footer-info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding-top: 30px;
+  column-gap: 10px;
   padding-bottom: 50px;
   color: #fff;
   text-align: center;
   font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
-  }
+}
 
-.footer-infoItem{
+.footer-infoItem {
   justify-self: center;
 }
 
-.footer-infoItem > span{
+.footer-infoItem>span {
   text-transform: uppercase;
   padding-bottom: 15px;
 }
 
-.footer-infoItem > p{
+.footer-infoItem>p {
   font-size: initial;
   color: var(--cor-c1);
   width: 25ch;
   line-height: 2rem;
 }
 
-.footer-infoItem > a{
+.footer-infoItem>a {
   font-size: initial;
   color: var(--cor-c1);
   line-height: 2rem;
 }
 
-.container > span{
+.container>span {
   text-align: center;
   font-size: initial;
   color: var(--cor-c1);
   line-height: 2rem;
+}
+
+
+@media (max-width: 850px) {
+
+  .footer-redes {
+    display: none;
+  }
+
+  .footer-info {
+    font-size: 1rem;
+  }
+
+  .footer-infoItem>p {
+    font-size: 0.9rem;
+  }
+
+  .footer-infoItem>a {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width: 800px) {
+
+  .footer-info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .footer-info {
+    justify-items: left;
+  }
+
+  [class$="especial"] a:not([class="footer-email"]) {
+    display: none;
+  }
+
+  .footer-email {
+    display: block;
+  }
+
+ .footer-bg .container > span{
+  font-size: 0.85rem;
+ }
+}
+
+@media (max-width: 450px){
+
+  .footer-info {
+    font-size: 0.8rem;
+  line-height: 1.25rem;
+  }
+
+  .footer-infoItem>p {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+  }
+
+  .footer-infoItem>a {
+    font-size: 0.75rem;
+  line-height: 1.25rem;
+  }
+
+  .footer-bg .container > span{
+    font-size: 0.65rem;
+   }
+
+}
+
+@media (max-width: 350px){
+
+  .footer-info {
+    font-size: 0.7rem;
+  }
+
+  .footer-infoItem>p {
+    font-size: 0.65rem;
+  }
+
+  .footer-infoItem>a {
+    font-size: 0.65rem;
+  }
+  
 }

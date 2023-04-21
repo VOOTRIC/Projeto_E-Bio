@@ -1,3 +1,5 @@
+footer {}
+
 .footer-bg {
   background-color: var(--cor-6);
 }
@@ -10,7 +12,7 @@ footer>div {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .footer-redes {
@@ -84,8 +86,8 @@ footer>div {
 @media (max-width: 800px) {
 
   .footer-info {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
   }
 }
 
@@ -103,16 +105,23 @@ footer>div {
     display: block;
   }
 
- .footer-bg .container > span{
-  font-size: 0.85rem;
- }
+  .footer-bg .container>span {
+    font-size: 0.85rem;
+  }
 }
 
-@media (max-width: 450px){
+
+@media (max-width: 520px) {
+
+
+
+}
+
+@media (max-width: 450px) {
 
   .footer-info {
     font-size: 0.8rem;
-  line-height: 1.25rem;
+    line-height: 1.25rem;
   }
 
   .footer-infoItem>p {
@@ -120,18 +129,18 @@ footer>div {
     line-height: 1.25rem;
   }
 
-  .footer-infoItem>a {  
+  .footer-infoItem>a {
     font-size: 0.75rem;
-  line-height: 1.25rem;
+    line-height: 1.25rem;
   }
 
-  .footer-bg .container > span{
+  .footer-bg .container>span {
     font-size: 0.65rem;
-   }
+  }
 
 }
 
-@media (max-width: 350px){
+@media (max-width: 350px) {
 
   .footer-info {
     font-size: 0.7rem;
@@ -144,5 +153,5 @@ footer>div {
   .footer-infoItem>a {
     font-size: 0.65rem;
   }
-  
+
 }

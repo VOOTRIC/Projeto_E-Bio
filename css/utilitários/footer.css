@@ -87,7 +87,7 @@ footer>div {
 
   .footer-info {
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
 }
 
@@ -108,13 +108,6 @@ footer>div {
   .footer-bg .container>span {
     font-size: 0.85rem;
   }
-}
-
-
-@media (max-width: 520px) {
-
-
-
 }
 
 @media (max-width: 450px) {

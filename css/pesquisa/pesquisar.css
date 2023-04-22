@@ -59,3 +59,20 @@ body#pesquisas [class$="main-home"] {
     }
     
 }
+
+
+@media (max-width: 400px){
+    
+    .form {
+        margin-top: 10px;
+        width: 250px;
+        height: 20px;
+    }
+
+    .form input[type="text"] {
+        padding: 3px 10px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+}

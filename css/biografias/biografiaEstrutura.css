@@ -1,4 +1,4 @@
-body#biografias > div.container{
+body#biografias>div.container {
     padding-top: 80px;
     display: grid;
     gap: 50px;
@@ -54,7 +54,7 @@ body#biografias > div.container{
     font-size: 2rem;
 }
 
-.bloco-2 > h2{
+.bloco-2>h2 {
     padding-left: 80px;
 }
 
@@ -66,8 +66,8 @@ body#biografias > div.container{
 
 /* BLOCO-2 */
 
-.bloco-2{
-display: grid;
+.bloco-2 {
+    display: grid;
 }
 
 .bio-imgG {
@@ -78,15 +78,62 @@ display: grid;
     height: 450px;
     padding: 20px;
 }
-.img-exemplo{
+
+.img-exemplo {
     background-color: rgba(255, 217, 171, 0.5);
-    width: 800px;
-    height: 400px;
+    width: 920px;
+    height: 410px;
 }
 
 /* BLOCO-3 */
-.bloco-3{
+.bloco-3 {
     display: grid;
     gap: 20px;
     padding-bottom: 50px;
+}
+
+@media (max-width: 1250px) {
+
+    .bio-img {
+        width: 200px;
+        height: 280px;
+    }
+
+    .bio-imgG {
+        width: 660px;
+        height: 350px;
+    }
+
+    .img-exemplo {
+        width: 620px;
+        height: 310px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .bloco-1{
+        grid-template-columns: 1fr;
+    }
+
+    .bio-img {
+        display: none;
+    }
+
+    .bio-infos h1 {
+        font-size: 1.5rem;
+    }
+
+    .bio-infos span {
+        font-size: 1rem;
+    }
+
+    body#biografias .container h2 {
+        font-size: 1.5rem;
+    }
+
+    .bio-texto {
+        font-size: 1rem;
+    }
+
 }
